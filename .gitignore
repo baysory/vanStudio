@@ -1,0 +1,16 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Temporários
+*.log
+.cache/
+node_modules/
+
+# Notas internas do projeto — mantidas apenas localmente
+informacoes-landing-page.md

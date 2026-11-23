@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+  ============================================================
+  VAN STUDIO — Landing page
+  ------------------------------------------------------------
+  ANTES DE PUBLICAR (ver informacoes-landing-page.md):
+   1. Confirmar o WhatsApp: hoje os links usam 55 62 9344-6437.
+      Se o numero tiver o 9o digito, substitua 556293446437 por
+      5562993446437 em TODOS os links (Ctrl+F "wa.me/556293446437").
+   2. Confirmar horario de funcionamento (hoje: "hora marcada").
+   3. Opcional: depoimentos reais (bloco pronto nos comentarios no
+      fim do arquivo), fotos do ambiente e logo em alta resolucao.
+  ============================================================
+-->
+
+<title>Van Studio | Salão de Beleza no Setor Bueno, Goiânia</title>
+<meta name="description" content="Cortes, coloração, mechas, sobrancelhas e unhas no Setor Bueno, Goiânia. Atendimento personalizado, com carinho, cuidado e excelência. Agende pelo WhatsApp.">
+<meta name="theme-color" content="#15100A">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Van Studio">
+
+<!-- Open Graph / redes sociais -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Van Studio — Beauty & Hair">
+<meta property="og:title" content="Van Studio | Beleza que realça a sua essência">
+<meta property="og:description" content="Cortes, coloração, mechas, sobrancelhas e unhas no Setor Bueno, Goiânia. Atendimento personalizado e resultado natural.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Van Studio — Beauty & Hair, Setor Bueno, Goiânia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Van Studio | Beleza que realça a sua essência">
+<meta name="twitter:description" content="Cortes, coloração, mechas, sobrancelhas e unhas no Setor Bueno, Goiânia.">
+<meta name="twitter:image" content="assets/img/og-image.jpg">
+
+<!-- Ao publicar, troque as URLs relativas de og:image / twitter:image por
+     absolutas com o domínio final (ex.: https://www.seudominio.com.br/assets/img/og-image.jpg)
+     e descomente a canonical abaixo.
+<link rel="canonical" href="https://www.seudominio.com.br/">
+-->
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<link rel="preload" href="assets/fonts/bodoni-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bodoni-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/loiro-long-800.webp" imagesrcset="assets/img/loiro-long-480.webp 480w, assets/img/loiro-long-800.webp 800w, assets/img/loiro-long-1200.webp 1200w" imagesizes="(min-width: 901px) 46vw, 100vw" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/styles.css">
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+<script src="assets/js/main.js" defer></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Van Studio",
+  "alternateName": "Van Studio | Salão de Beleza",
+  "description": "Salão de beleza especializado em cortes, coloração, mechas, sobrancelhas e unhas no Setor Bueno, Goiânia.",
+  "image": "assets/img/og-image.jpg",
+  "logo": "assets/img/logo-mark-384.png",
+  "telephone": "+55-62-9344-6437",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. T-27, nº 1214, Qd. 66, Sala 4",
+    "addressLocality": "Goiânia",
+    "addressRegion": "GO",
+    "postalCode": "74215-030",
+    "addressCountry": "BR"
+  },
+  "areaServed": { "@type": "City", "name": "Goiânia" },
+  "sameAs": ["https://www.instagram.com/vanstudio.salao/"],
+  "knowsAbout": ["Corte feminino", "Coloração", "Mechas", "Progressiva", "Design de sobrancelhas", "Manicure", "Maquiagem"]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<div class="scroll-progress" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ================= SVG ICON SPRITE ================= -->
+<svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-wa" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/>
+        <circle cx="12" cy="12" r="4.1"/>
+      </g>
+      <circle cx="17.1" cy="6.9" r="1.15" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 12h15"/><path d="M13 6l6 6-6 6"/>
+      </g>
+    </symbol>
+    <symbol id="i-arrow-ur" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 17L17 7"/><path d="M8 7h9v9"/>
+      </g>
+    </symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" d="M14.5 5l-7 7 7 7"/>
+    </symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" d="M9.5 5l7 7-7 7"/>
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21.5s-7.2-6.3-7.2-11.4a7.2 7.2 0 0114.4 0c0 5.1-7.2 11.4-7.2 11.4z"/>
+        <circle cx="12" cy="10" r="2.6"/>
+      </g>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="8.6"/><path d="M12 7.2V12l3.4 2"/>
+      </g>
+    </symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M12 5v14M5 12h14"/>
+    </symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 1.6l2.45 7.95L22.4 12l-7.95 2.45L12 22.4l-2.45-7.95L1.6 12l7.95-2.45z"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.5l4.6 4.6L19.5 6.7"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="site-header">
+  <div class="container header__inner">
+    <a class="brand" href="#topo" aria-label="Van Studio — início">
+      <img class="brand__mark" src="assets/img/logo-mark-96.webp" alt="" width="96" height="96" decoding="async">
+      <span class="brand__text">
+        <span class="brand__name">Van Studio</span>
+        <span class="brand__sub">Beauty &amp; Hair</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="nav__link" href="#estudio">O estúdio</a>
+      <a class="nav__link" href="#servicos">Serviços</a>
+      <a class="nav__link" href="#transformacoes">Transformações</a>
+      <a class="nav__link" href="#visite">Visite</a>
+    </nav>
+
+    <a class="btn btn--outline header__cta" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+      <span>Agendar</span>
+      <svg class="ico" aria-hidden="true"><use href="#i-arrow-ur"/></svg>
+    </a>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="menu-btn__bar"></span>
+      <span class="menu-btn__bar"></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= MOBILE MENU ================= -->
+<div class="mmenu" id="mobile-menu">
+  <nav class="mmenu__nav" aria-label="Menu móvel">
+    <a class="mmenu__link" href="#estudio">O estúdio</a>
+    <a class="mmenu__link" href="#servicos">Serviços</a>
+    <a class="mmenu__link" href="#transformacoes">Transformações</a>
+    <a class="mmenu__link" href="#sobrancelhas">Sobrancelhas</a>
+    <a class="mmenu__link" href="#visite">Visite</a>
+  </nav>
+
+  <p class="mmenu__quote">Especialistas em realçar sua beleza e autoestima.</p>
+
+  <div class="mmenu__foot">
+    <a class="btn btn--gold" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+      <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+      <span>Agendar pelo WhatsApp</span>
+    </a>
+    <p class="mmenu__meta">Av. T-27, 1214 · Sala 4<br>Setor Bueno, Goiânia — GO</p>
+    <a class="mmenu__ig" href="https://www.instagram.com/vanstudio.salao/" target="_blank" rel="noopener">
+      <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg> @vanstudio.salao
+    </a>
+  </div>
+</div>
+
+<main id="conteudo" tabindex="-1">
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="topo">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__grid-lines" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow" data-reveal>
+          <span class="eyebrow__line" aria-hidden="true"></span>
+          Salão de beleza · Setor Bueno, Goiânia
+        </p>
+
+        <h1 class="hero__title" data-reveal>
+          Beleza que<br>
+          <em>realça</em> a sua<br>
+          essência.
+        </h1>
+
+        <p class="hero__lede" data-reveal>
+          Cortes, coloração, mechas, sobrancelhas e unhas com atendimento
+          personalizado — porque cada rosto pede um design próprio.
+        </p>
+
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--gold" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span>Agendar pelo WhatsApp</span>
+          </a>
+          <a class="btn btn--ghost" href="#transformacoes">
+            <span>Ver transformações</span>
+            <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+
+        <ul class="hero__meta" data-reveal>
+          <li>
+            <span class="hero__meta-k">Endereço</span>
+            <span class="hero__meta-v">Av. T-27, 1214 — Sala 4</span>
+          </li>
+          <li>
+            <span class="hero__meta-k">Atendimento</span>
+            <span class="hero__meta-v">Com hora marcada</span>
+          </li>
+          <li>
+            <span class="hero__meta-k">Instagram</span>
+            <span class="hero__meta-v">
+              <a href="https://www.instagram.com/vanstudio.salao/" target="_blank" rel="noopener">@vanstudio.salao</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" data-reveal>
+        <span class="hero__vertical" aria-hidden="true">Beauty &amp; Hair — Goiânia</span>
+
+        <figure class="hero__figure">
+          <div class="hero__frame">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 46vw, 100vw"
+                srcset="assets/img/loiro-long-480.webp 480w, assets/img/loiro-long-800.webp 800w, assets/img/loiro-long-1200.webp 1200w">
+              <img class="hero__img"
+                src="assets/img/loiro-long-800.jpg"
+                srcset="assets/img/loiro-long-480.jpg 480w, assets/img/loiro-long-800.jpg 800w, assets/img/loiro-long-1200.jpg 1200w"
+                sizes="(min-width: 901px) 46vw, 100vw"
+                width="1200" height="1600"
+                alt="Cabelo loiro longo com ondas, trabalho de coloração e mechas realizado na Van Studio"
+                fetchpriority="high" decoding="async">
+            </picture>
+          </div>
+          <figcaption class="hero__figcap">
+            <span class="hero__figcap-num">01</span>
+            <span>Loiro iluminado<br><small>Coloração &amp; mechas</small></span>
+          </figcaption>
+        </figure>
+
+        <img class="hero__seal" src="assets/img/logo-mark-192.webp" alt="" width="192" height="192" aria-hidden="true" decoding="async">
+
+        <svg class="hero__wave" viewBox="0 0 320 120" fill="none" aria-hidden="true">
+          <path d="M2 92C42 92 58 26 100 26c42 0 52 68 102 68s52-44 116-44" stroke="url(#wave-g)" stroke-width="1"/>
+          <defs>
+            <linearGradient id="wave-g" x1="0" y1="0" x2="320" y2="60" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#C9A227" stop-opacity="0"/>
+              <stop offset=".5" stop-color="#E4C87C" stop-opacity=".9"/>
+              <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+
+    <a class="hero__scroll" href="#estudio" aria-label="Rolar para o conteúdo">
+      <span>Role</span>
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__item">Corte &amp; visagismo</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Coloração</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Mechas &amp; loiros</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Progressiva</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Sobrancelhas</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Unhas</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Maquiagem</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Corte &amp; visagismo</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Coloração</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Mechas &amp; loiros</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Progressiva</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Sobrancelhas</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Unhas</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+      <span class="marquee__item">Maquiagem</span><svg class="marquee__dot"><use href="#i-spark"/></svg>
+    </div>
+  </div>
+
+  <!-- ================= ESTÚDIO ================= -->
+  <section class="section section--ivory about" id="estudio">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__media" data-reveal>
+          <figure class="frame-img frame-img--portrait">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 38vw, 92vw"
+                srcset="assets/img/progressiva-480.webp 480w, assets/img/progressiva-800.webp 800w, assets/img/progressiva-1200.webp 1200w">
+              <img src="assets/img/progressiva-800.jpg"
+                srcset="assets/img/progressiva-480.jpg 480w, assets/img/progressiva-800.jpg 800w, assets/img/progressiva-1200.jpg 1200w"
+                sizes="(min-width: 901px) 38vw, 92vw"
+                width="1200" height="1600" loading="lazy" decoding="async"
+                alt="Cabelo liso iluminado com pontas movimentadas após progressiva">
+            </picture>
+          </figure>
+          <p class="about__caption">Progressiva iluminada · acabamento natural</p>
+        </div>
+
+        <div class="about__body">
+          <p class="label" data-reveal><span class="label__num">I</span> O estúdio</p>
+          <h2 class="h2" data-reveal>Cada rosto,<br><em>um design.</em></h2>
+          <div class="about__text" data-reveal>
+            <p>
+              A Van Studio nasceu do cuidado com o detalhe: o corte que respeita
+              o formato do rosto, a cor que valoriza o tom da pele, o acabamento
+              que faz diferença.
+            </p>
+            <p>
+              Aqui, beleza e saúde do fio caminham juntas. Ouvimos antes de
+              transformar — e o resultado é sempre natural, do jeito que combina
+              com você.
+            </p>
+          </div>
+
+          <ul class="pillars">
+            <li class="pillar" data-reveal>
+              <span class="pillar__num">01</span>
+              <div>
+                <h3 class="pillar__title">Atendimento personalizado</h3>
+                <p class="pillar__text">Tudo começa por uma conversa e um diagnóstico honesto do seu fio.</p>
+              </div>
+            </li>
+            <li class="pillar" data-reveal>
+              <span class="pillar__num">02</span>
+              <div>
+                <h3 class="pillar__title">Saúde do fio</h3>
+                <p class="pillar__text">Técnicas e produtos que preservam a estrutura do cabelo em cada processo.</p>
+              </div>
+            </li>
+            <li class="pillar" data-reveal>
+              <span class="pillar__num">03</span>
+              <div>
+                <h3 class="pillar__title">Resultado natural</h3>
+                <p class="pillar__text">Transformações que realçam a sua identidade — sem perder a naturalidade.</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="about__sign" data-reveal>
+            <p class="about__quote">Com carinho, cuidado e excelência.</p>
+            <a class="link-arrow" href="https://www.instagram.com/vanstudio.salao/" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg>
+              <span>Ver o dia a dia no Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVIÇOS ================= -->
+  <section class="section section--cream services" id="servicos">
+    <div class="container">
+      <div class="section-head">
+        <p class="label" data-reveal><span class="label__num">II</span> Serviços</p>
+        <div class="section-head__row">
+          <h2 class="h2" data-reveal>Cuidado em<br><em>cada detalhe.</em></h2>
+          <p class="section-head__intro" data-reveal>
+            Seis frentes de trabalho, um mesmo padrão de excelência.
+            Toque em um serviço para agendar direto no WhatsApp.
+          </p>
+        </div>
+      </div>
+
+      <div class="svc-grid">
+        <a class="svc svc--tall" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20corte%20com%20visagismo." target="_blank" rel="noopener" data-reveal>
+          <div class="svc__media">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 36vw, (min-width: 601px) 46vw, 92vw"
+                srcset="assets/img/chanel-480.webp 480w, assets/img/chanel-800.webp 800w">
+              <img src="assets/img/chanel-800.jpg"
+                srcset="assets/img/chanel-480.jpg 480w, assets/img/chanel-800.jpg 800w"
+                sizes="(min-width: 901px) 36vw, (min-width: 601px) 46vw, 92vw"
+                width="1200" height="1600" loading="lazy" decoding="async"
+                alt="Corte chanel loiro finalizado, visto de perfil">
+            </picture>
+            <span class="svc__badge">01</span>
+            <span class="svc__go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+          </div>
+          <div class="svc__body">
+            <h3 class="svc__title">Corte &amp; visagismo</h3>
+            <p class="svc__desc">Corte personalizado pelo formato do rosto e pelo seu estilo.</p>
+          </div>
+        </a>
+
+        <a class="svc" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20colora%C3%A7%C3%A3o%20ou%20corre%C3%A7%C3%A3o%20de%20cor." target="_blank" rel="noopener" data-reveal>
+          <div class="svc__media">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                srcset="assets/img/mel-acetinado-480.webp 480w, assets/img/mel-acetinado-800.webp 800w">
+              <img src="assets/img/mel-acetinado-800.jpg"
+                srcset="assets/img/mel-acetinado-480.jpg 480w, assets/img/mel-acetinado-800.jpg 800w"
+                sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                width="1204" height="1600" loading="lazy" decoding="async"
+                alt="Cabelo marrom mel acetinado com movimento">
+            </picture>
+            <span class="svc__badge">02</span>
+            <span class="svc__go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+          </div>
+          <div class="svc__body">
+            <h3 class="svc__title">Coloração &amp; correção</h3>
+            <p class="svc__desc">Cor sob medida, com correção de tom e brilho.</p>
+          </div>
+        </a>
+
+        <a class="svc" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20mechas%20ou%20ilumina%C3%A7%C3%A3o." target="_blank" rel="noopener" data-reveal>
+          <div class="svc__media">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                srcset="assets/img/mechas-480.webp 480w, assets/img/mechas-800.webp 800w">
+              <img src="assets/img/mechas-800.jpg"
+                srcset="assets/img/mechas-480.jpg 480w, assets/img/mechas-800.jpg 800w"
+                sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                width="1200" height="1600" loading="lazy" decoding="async"
+                alt="Mechas loiras com raiz esfumada em cabelo de comprimento médio">
+            </picture>
+            <span class="svc__badge">03</span>
+            <span class="svc__go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+          </div>
+          <div class="svc__body">
+            <h3 class="svc__title">Mechas &amp; loiros</h3>
+            <p class="svc__desc">Iluminação estratégica, do loiro dourado ao mel acetinado.</p>
+          </div>
+        </a>
+
+        <a class="svc" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20progressiva%20ou%20alinhamento." target="_blank" rel="noopener" data-reveal>
+          <div class="svc__media">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                srcset="assets/img/alinhamento-480.webp 480w, assets/img/alinhamento-800.webp 800w">
+              <img src="assets/img/alinhamento-800.jpg"
+                srcset="assets/img/alinhamento-480.jpg 480w, assets/img/alinhamento-800.jpg 800w"
+                sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                width="1200" height="1600" loading="lazy" decoding="async"
+                alt="Cabelo alinhado com brilho espelhado após selagem">
+            </picture>
+            <span class="svc__badge">04</span>
+            <span class="svc__go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+          </div>
+          <div class="svc__body">
+            <h3 class="svc__title">Progressiva &amp; alinhamento</h3>
+            <p class="svc__desc">Fios alinhados, leves e com movimento natural.</p>
+          </div>
+        </a>
+
+        <a class="svc" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20design%20de%20sobrancelhas." target="_blank" rel="noopener" data-reveal>
+          <div class="svc__media">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                srcset="assets/img/sobrancelha-480.webp 480w, assets/img/sobrancelha-800.webp 800w">
+              <img src="assets/img/sobrancelha-800.jpg"
+                srcset="assets/img/sobrancelha-480.jpg 480w, assets/img/sobrancelha-800.jpg 800w"
+                sizes="(min-width: 901px) 26vw, (min-width: 601px) 46vw, 92vw"
+                width="1200" height="1600" loading="lazy" decoding="async"
+                alt="Antes e depois de design de sobrancelhas">
+            </picture>
+            <span class="svc__badge">05</span>
+            <span class="svc__go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+          </div>
+          <div class="svc__body">
+            <h3 class="svc__title">Sobrancelhas</h3>
+            <p class="svc__desc">Design que valoriza o olhar e respeita a expressão.</p>
+          </div>
+        </a>
+
+        <a class="svc svc--tall" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20manicure%20ou%20pedicure." target="_blank" rel="noopener" data-reveal>
+          <div class="svc__media">
+            <picture>
+              <source type="image/webp" sizes="(min-width: 901px) 36vw, (min-width: 601px) 46vw, 92vw"
+                srcset="assets/img/unhas-480.webp 480w, assets/img/unhas-800.webp 800w">
+              <img src="assets/img/unhas-800.jpg"
+                srcset="assets/img/unhas-480.jpg 480w, assets/img/unhas-800.jpg 800w"
+                sizes="(min-width: 901px) 36vw, (min-width: 601px) 46vw, 92vw"
+                width="1440" height="1564" loading="lazy" decoding="async"
+                alt="Mãos com manicure nude rosé e acabamento brilhante">
+            </picture>
+            <span class="svc__badge">06</span>
+            <span class="svc__go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+          </div>
+          <div class="svc__body">
+            <h3 class="svc__title">Unhas</h3>
+            <p class="svc__desc">Manicure e pedicure com acabamento impecável.</p>
+          </div>
+        </a>
+      </div>
+
+      <p class="svc-note" data-reveal>
+        Também fazemos <strong>maquiagem, penteado, corte infantil e tratamento capilar</strong>.
+        <a class="link-arrow link-arrow--inline" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20um%20servi%C3%A7o." target="_blank" rel="noopener">
+          <span>Fale com a gente</span>
+          <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= TRANSFORMAÇÕES ================= -->
+  <section class="section section--ink gallery" id="transformacoes">
+    <div class="container">
+      <div class="section-head section-head--dark">
+        <p class="label label--dark" data-reveal><span class="label__num">III</span> Portfólio</p>
+        <div class="section-head__row">
+          <h2 class="h2" data-reveal>Transformações<br><em>que falam.</em></h2>
+          <p class="section-head__intro" data-reveal>
+            Trabalhos realizados no estúdio, com clientes de verdade.
+            Clique para ampliar cada resultado.
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery__grid">
+        <button class="gitem gitem--w5 gitem--tall" data-reveal
+          data-full="assets/img/loiro-long-1200.jpg"
+          data-alt="Cabelo loiro longo com ondas, visto de costas"
+          data-title="Loiro longo iluminado" data-sub="Coloração & mechas">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 40vw, (min-width: 601px) 48vw, 92vw"
+              srcset="assets/img/loiro-long-480.webp 480w, assets/img/loiro-long-800.webp 800w">
+            <img src="assets/img/loiro-long-480.jpg"
+              srcset="assets/img/loiro-long-480.jpg 480w, assets/img/loiro-long-800.jpg 800w"
+              sizes="(min-width: 901px) 40vw, (min-width: 601px) 48vw, 92vw"
+              width="1200" height="1600" loading="lazy" decoding="async"
+              alt="Cabelo loiro longo com ondas, visto de costas">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Loiro longo iluminado</span><span class="gitem__s">Coloração &amp; mechas</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w4 gitem--sq" data-reveal
+          data-full="assets/img/unhas-1200.jpg"
+          data-alt="Mãos com manicure nude rosé e anéis dourados"
+          data-title="Manicure nude rosé" data-sub="Unhas">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 32vw, (min-width: 601px) 48vw, 92vw"
+              srcset="assets/img/unhas-480.webp 480w, assets/img/unhas-800.webp 800w">
+            <img src="assets/img/unhas-480.jpg"
+              srcset="assets/img/unhas-480.jpg 480w, assets/img/unhas-800.jpg 800w"
+              sizes="(min-width: 901px) 32vw, (min-width: 601px) 48vw, 92vw"
+              width="1440" height="1564" loading="lazy" decoding="async"
+              alt="Mãos com manicure nude rosé e anéis dourados">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Manicure nude rosé</span><span class="gitem__s">Unhas</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w3 gitem--tall" data-reveal
+          data-full="assets/img/chanel-1200.jpg"
+          data-alt="Corte chanel loiro finalizado, visto de perfil"
+          data-title="Chanel loiro" data-sub="Corte & coloração">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 25vw, (min-width: 601px) 48vw, 92vw"
+              srcset="assets/img/chanel-480.webp 480w, assets/img/chanel-800.webp 800w">
+            <img src="assets/img/chanel-480.jpg"
+              srcset="assets/img/chanel-480.jpg 480w, assets/img/chanel-800.jpg 800w"
+              sizes="(min-width: 901px) 25vw, (min-width: 601px) 48vw, 92vw"
+              width="1200" height="1600" loading="lazy" decoding="async"
+              alt="Corte chanel loiro finalizado, visto de perfil">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Chanel loiro</span><span class="gitem__s">Corte &amp; coloração</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w4 gitem--tall gitem--offset" data-reveal
+          data-full="assets/img/mechas-1200.jpg"
+          data-alt="Mechas loiras com raiz esfumada"
+          data-title="Mechas com raiz esfumada" data-sub="Mechas & fios brancos">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 32vw, (min-width: 601px) 48vw, 92vw"
+              srcset="assets/img/mechas-480.webp 480w, assets/img/mechas-800.webp 800w">
+            <img src="assets/img/mechas-480.jpg"
+              srcset="assets/img/mechas-480.jpg 480w, assets/img/mechas-800.jpg 800w"
+              sizes="(min-width: 901px) 32vw, (min-width: 601px) 48vw, 92vw"
+              width="1200" height="1600" loading="lazy" decoding="async"
+              alt="Mechas loiras com raiz esfumada">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Raiz esfumada</span><span class="gitem__s">Mechas &amp; fios brancos</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w5 gitem--tall" data-reveal
+          data-full="assets/img/progressiva-1200.jpg"
+          data-alt="Cabelo liso iluminado com pontas movimentadas"
+          data-title="Progressiva iluminada" data-sub="Alinhamento capilar">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 40vw, (min-width: 601px) 48vw, 92vw"
+              srcset="assets/img/progressiva-480.webp 480w, assets/img/progressiva-800.webp 800w">
+            <img src="assets/img/progressiva-480.jpg"
+              srcset="assets/img/progressiva-480.jpg 480w, assets/img/progressiva-800.jpg 800w"
+              sizes="(min-width: 901px) 40vw, (min-width: 601px) 48vw, 92vw"
+              width="1200" height="1600" loading="lazy" decoding="async"
+              alt="Cabelo liso iluminado com pontas movimentadas">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Progressiva iluminada</span><span class="gitem__s">Alinhamento capilar</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w3 gitem--sq gitem--offset" data-reveal
+          data-full="assets/img/mel-acetinado-1200.jpg"
+          data-alt="Cabelo marrom mel acetinado com movimento"
+          data-title="Mel acetinado" data-sub="Coloração">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 25vw, (min-width: 601px) 48vw, 92vw"
+              srcset="assets/img/mel-acetinado-480.webp 480w, assets/img/mel-acetinado-800.webp 800w">
+            <img src="assets/img/mel-acetinado-480.jpg"
+              srcset="assets/img/mel-acetinado-480.jpg 480w, assets/img/mel-acetinado-800.jpg 800w"
+              sizes="(min-width: 901px) 25vw, (min-width: 601px) 48vw, 92vw"
+              width="1204" height="1600" loading="lazy" decoding="async"
+              alt="Cabelo marrom mel acetinado com movimento">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Mel acetinado</span><span class="gitem__s">Coloração</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w7 gitem--wide" data-reveal
+          data-full="assets/img/sobrancelha-1200.jpg"
+          data-alt="Antes e depois de design de sobrancelhas"
+          data-title="Design de sobrancelhas" data-sub="Antes & depois">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 56vw, 92vw"
+              srcset="assets/img/sobrancelha-480.webp 480w, assets/img/sobrancelha-800.webp 800w">
+            <img src="assets/img/sobrancelha-480.jpg"
+              srcset="assets/img/sobrancelha-480.jpg 480w, assets/img/sobrancelha-800.jpg 800w"
+              sizes="(min-width: 901px) 56vw, 92vw"
+              width="1200" height="1600" loading="lazy" decoding="async"
+              alt="Antes e depois de design de sobrancelhas">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Design de sobrancelhas</span><span class="gitem__s">Antes &amp; depois</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+
+        <button class="gitem gitem--w5 gitem--tall" data-reveal
+          data-full="assets/img/alinhamento-1200.jpg"
+          data-alt="Cabelo alinhado com brilho espelhado"
+          data-title="Brilho espelhado" data-sub="Selagem & alinhamento">
+          <picture>
+            <source type="image/webp" sizes="(min-width: 901px) 40vw, 92vw"
+              srcset="assets/img/alinhamento-480.webp 480w, assets/img/alinhamento-800.webp 800w">
+            <img src="assets/img/alinhamento-480.jpg"
+              srcset="assets/img/alinhamento-480.jpg 480w, assets/img/alinhamento-800.jpg 800w"
+              sizes="(min-width: 901px) 40vw, 92vw"
+              width="1200" height="1600" loading="lazy" decoding="async"
+              alt="Cabelo alinhado com brilho espelhado">
+          </picture>
+          <span class="gitem__overlay"></span>
+          <span class="gitem__cap"><span class="gitem__t">Brilho espelhado</span><span class="gitem__s">Selagem &amp; alinhamento</span></span>
+          <span class="gitem__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+      </div>
+
+      <div class="gallery__foot" data-reveal>
+        <p>Acompanhe novos trabalhos no Instagram.</p>
+        <a class="btn btn--outline" href="https://www.instagram.com/vanstudio.salao/" target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg>
+          <span>@vanstudio.salao</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SOBRANCELHAS ================= -->
+  <section class="section section--ivory brows" id="sobrancelhas">
+    <div class="container">
+      <div class="brows__grid">
+        <div class="brows__body">
+          <p class="label" data-reveal>Design de sobrancelhas</p>
+          <h2 class="h2" data-reveal>O detalhe que<br><em>muda o olhar.</em></h2>
+          <p class="brows__text" data-reveal>
+            A sobrancelha certa equilibra o rosto inteiro. Trabalhamos o design
+            com visagismo, respeitando o formato dos seus olhos e a sua
+            expressão natural — sem exageros, sem perder a identidade.
+          </p>
+          <ul class="brows__list" data-reveal>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Mapeamento e visagismo</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Correção de falhas e simetria</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg> Definição e acabamento</li>
+          </ul>
+          <a class="btn btn--ink" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20design%20de%20sobrancelhas." target="_blank" rel="noopener" data-reveal>
+            <span>Agendar design</span>
+            <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+
+        <div class="brows__media" data-reveal>
+          <div class="ba">
+            <figure class="ba__item">
+              <picture>
+                <source type="image/webp" sizes="(min-width: 901px) 22vw, 44vw"
+                  srcset="assets/img/sobrancelha-antes-480.webp 480w, assets/img/sobrancelha-antes-800.webp 800w">
+                <img src="assets/img/sobrancelha-antes-800.jpg"
+                  srcset="assets/img/sobrancelha-antes-480.jpg 480w, assets/img/sobrancelha-antes-800.jpg 800w"
+                  sizes="(min-width: 901px) 22vw, 44vw"
+                  width="1200" height="752" loading="lazy" decoding="async"
+                  alt="Sobrancelha antes do design, com formato natural">
+              </picture>
+              <figcaption>Antes</figcaption>
+            </figure>
+            <span class="ba__divider" aria-hidden="true"></span>
+            <figure class="ba__item">
+              <picture>
+                <source type="image/webp" sizes="(min-width: 901px) 22vw, 44vw"
+                  srcset="assets/img/sobrancelha-depois-480.webp 480w, assets/img/sobrancelha-depois-800.webp 800w">
+                <img src="assets/img/sobrancelha-depois-800.jpg"
+                  srcset="assets/img/sobrancelha-depois-480.jpg 480w, assets/img/sobrancelha-depois-800.jpg 800w"
+                  sizes="(min-width: 901px) 22vw, 44vw"
+                  width="1200" height="847" loading="lazy" decoding="async"
+                  alt="Sobrancelha depois do design, com formato definido">
+              </picture>
+              <figcaption>Depois</figcaption>
+            </figure>
+          </div>
+          <p class="brows__caption">Resultado real de design de sobrancelhas.</p>
+          <img class="brows__seal" src="assets/img/logo-mark-96.webp" alt="" width="96" height="96" aria-hidden="true" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= JORNADA ================= -->
+  <section class="section section--cream journey" id="jornada">
+    <div class="container">
+      <div class="section-head">
+        <p class="label" data-reveal><span class="label__num">IV</span> A experiência</p>
+        <div class="section-head__row">
+          <h2 class="h2" data-reveal>Como cuidamos<br><em>de você.</em></h2>
+          <p class="section-head__intro" data-reveal>
+            Do primeiro contato ao cuidado em casa — um processo pensado para
+            você se sentir segura em cada etapa.
+          </p>
+        </div>
+      </div>
+
+      <ol class="steps">
+        <li class="step" data-reveal>
+          <span class="step__num">I</span>
+          <h3 class="step__title">Conversa</h3>
+          <p class="step__text">Entendemos o seu histórico, o seu dia a dia e o resultado que você procura.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">II</span>
+          <h3 class="step__title">Diagnóstico</h3>
+          <p class="step__text">Avaliamos o fio e propomos o caminho mais saudável até o resultado.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">III</span>
+          <h3 class="step__title">Execução</h3>
+          <p class="step__text">Cada etapa é conduzida com técnica, pausa e atenção ao detalhe.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">IV</span>
+          <h3 class="step__title">Cuidados</h3>
+          <p class="step__text">Você sai com orientações para manter o resultado em casa.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= VISITE ================= -->
+  <section class="section section--ink visit" id="visite">
+    <div class="container">
+      <div class="section-head section-head--dark">
+        <p class="label label--dark" data-reveal><span class="label__num">V</span> Visite</p>
+        <div class="section-head__row">
+          <h2 class="h2" data-reveal>No coração do<br><em>Setor Bueno.</em></h2>
+          <p class="section-head__intro" data-reveal>
+            Um espaço tranquilo e reservado, no coração do Setor Bueno —
+            com atendimento por agendamento, no seu tempo.
+          </p>
+        </div>
+      </div>
+
+      <div class="visit__grid">
+        <div class="visit__info" data-reveal>
+          <div class="visit__row">
+            <span class="visit__ico"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg></span>
+            <div>
+              <h3 class="visit__k">Endereço</h3>
+              <p class="visit__v">
+                Av. T-27, nº 1214 — Qd. 66, Sala 4<br>
+                Setor Bueno, Goiânia — GO · CEP 74215-030
+              </p>
+              <a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&destination=Av.+T-27,+1214,+Setor+Bueno,+Goi%C3%A2nia+-+GO,+74215-030" target="_blank" rel="noopener">
+                <span>Como chegar</span>
+                <svg class="ico" aria-hidden="true"><use href="#i-arrow-ur"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="visit__row">
+            <span class="visit__ico"><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg></span>
+            <div>
+              <h3 class="visit__k">Atendimento</h3>
+              <p class="visit__v">Com hora marcada — consulte a disponibilidade pelo WhatsApp.</p>
+            </div>
+          </div>
+
+          <div class="visit__links">
+            <a class="visit__link" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio." target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span><small>WhatsApp</small>(62) 9344-6437</span>
+              <svg class="ico visit__link-arrow" aria-hidden="true"><use href="#i-arrow-ur"/></svg>
+            </a>
+            <a class="visit__link" href="https://www.instagram.com/vanstudio.salao/" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg>
+              <span><small>Instagram</small>@vanstudio.salao</span>
+              <svg class="ico visit__link-arrow" aria-hidden="true"><use href="#i-arrow-ur"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="visit__map" data-reveal>
+          <div class="map-frame">
+            <div class="map-frame__loading" aria-hidden="true">
+              <svg class="ico"><use href="#i-pin"/></svg>
+              <span>Carregando mapa</span>
+            </div>
+            <iframe
+              title="Mapa da localização da Van Studio no Setor Bueno, Goiânia"
+              src="https://maps.google.com/maps?q=Av.%20T-27%2C%201214%2C%20Setor%20Bueno%2C%20Goi%C3%A2nia%20-%20GO%2C%2074215-030&z=17&hl=pt-BR&output=embed"
+              width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <span class="map-frame__chip">
+              <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>
+              Av. T-27, 1214 · Sala 4
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA final -->
+      <div class="cta" data-reveal>
+        <svg class="cta__wave" viewBox="0 0 1200 320" fill="none" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M-10 250C120 250 200 90 380 90s240 200 430 200 240-160 400-160" stroke="currentColor" stroke-width="1"/>
+          <path d="M-10 290C140 290 230 160 400 160s250 190 430 190 230-140 390-140" stroke="currentColor" stroke-width="1" opacity=".5"/>
+        </svg>
+        <div class="cta__inner">
+          <p class="cta__eyebrow">Agendamento</p>
+          <h2 class="cta__title">Sua próxima transformação<br>começa com <em>uma conversa.</em></h2>
+          <p class="cta__text">Conte o que você procura e receba uma orientação honesta sobre o melhor caminho para o seu cabelo.</p>
+          <a class="btn btn--ink btn--lg" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span>Agendar pelo WhatsApp</span>
+          </a>
+          <p class="cta__note">Respondemos rapidinho no WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img class="footer__mark" src="assets/img/logo-mark-96.webp" alt="Emblema Van Studio" width="96" height="96" loading="lazy" decoding="async">
+        <div>
+          <p class="footer__name">Van Studio</p>
+          <p class="footer__tag">Beauty &amp; Hair — Setor Bueno, Goiânia.</p>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="#estudio">O estúdio</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#transformacoes">Transformações</a>
+        <a href="#visite">Visite</a>
+      </nav>
+
+      <div class="footer__contact">
+        <a href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio." target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> (62) 9344-6437
+        </a>
+        <a href="https://www.instagram.com/vanstudio.salao/" target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg> @vanstudio.salao
+        </a>
+        <p>Av. T-27, 1214 — Sala 4<br>Setor Bueno, Goiânia — GO</p>
+      </div>
+    </div>
+
+    <p class="footer__wordmark" aria-hidden="true">Van Studio</p>
+
+    <div class="footer__bottom">
+      <p>© <span id="year">2026</span> Van Studio. Todos os direitos reservados.</p>
+      <a class="footer__top-link" href="#topo">Voltar ao topo <svg class="ico" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp flutuante -->
+<aside class="wa-dock" aria-label="Contato rápido">
+  <a class="wa-float" id="wa-float" href="https://wa.me/556293446437?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Van%20Studio%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+    <span class="wa-float__label">Fale com a gente</span>
+  </a>
+</aside>
+
+<!-- ================= LIGHTBOX ================= -->
+<dialog class="lb" id="lightbox" aria-labelledby="lb-title">
+  <div class="lb__inner">
+    <button class="lb__close" type="button" aria-label="Fechar"><svg class="ico"><use href="#i-close"/></svg></button>
+    <button class="lb__nav lb__nav--prev" type="button" aria-label="Imagem anterior"><svg class="ico"><use href="#i-chev-l"/></svg></button>
+    <figure class="lb__figure">
+      <img class="lb__img" id="lb-img" alt="">
+      <figcaption class="lb__cap">
+        <span class="lb__title" id="lb-title"></span>
+        <span class="lb__sub" id="lb-sub"></span>
+      </figcaption>
+    </figure>
+    <button class="lb__nav lb__nav--next" type="button" aria-label="Próxima imagem"><svg class="ico"><use href="#i-chev-r"/></svg></button>
+    <p class="lb__count" id="lb-count" aria-live="polite"></p>
+  </div>
+</dialog>
+
+<!--
+  ============================================================
+  DEPOIMENTOS — bloco pronto, aguardando 3 depoimentos reais.
+  Cole entre a seção #sobrancelhas e #jornada quando tiver os
+  textos autorizados pelas clientes (não publicar inventados).
+  ============================================================
+  <section class="section section--cream" id="depoimentos">
+    <div class="container">
+      <p class="label">Depoimentos</p>
+      <h2 class="h2">Quem passa por aqui,<br><em>volta.</em></h2>
+      <div class="tst-grid">
+        <blockquote class="tst">
+          <p>“Texto do depoimento real da cliente.”</p>
+          <footer><cite>Nome da cliente</cite><span>Serviço realizado</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+-->
+</body>
+</html>
